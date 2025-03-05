@@ -1,0 +1,101 @@
+/* style.css - Gaya utama dengan warna goldenrod */
+
+/* Mengatur tampilan dasar halaman */
+body {
+    font-family: 'Poppins', Times, Times New Roman;
+    margin: 0;
+    padding: 0;
+    background: url('masjid.png') no-repeat center center fixed;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    color: #333;
+}
+
+/* Header dengan gradasi */
+header {
+    background: linear-gradient(90deg, #DAA520, #c8963e);
+    color: white;
+    padding: 25px;
+    text-align: center;
+    font-size: 20px;
+    font-weight: bold;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+/* Navigasi */
+nav {
+    display: flex;
+    justify-content: center;
+    gap: 30px; /* Memberikan jarak antar link */
+    padding: 15px;
+    background-color: #b8860b;
+}
+
+nav a {
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+    font-weight: bold;
+    transition: 0.3s;
+    padding: 12px 20px;
+    border-radius: 8px;
+    background: rgba(255, 255, 255, 0.2); /* Efek transparan */
+    border: 2px solid white;
+}
+
+nav a:hover {
+    background-color: #ffdd57;
+    color: #333;
+    transform: scale(1.1);
+}
+
+/* Konten utama */
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 75vh;
+    text-align: center;
+}
+
+/* Section utama */
+section {
+    background-color: rgba(255, 255, 255, 0.9);
+    padding: 30px;
+    margin: 20px auto;
+    width: 80%;
+    max-width: 800px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3);
+    border-radius: 15px;
+    text-align: center;
+    transition: 0.3s;
+}
+
+/* Teks utama diperbesar */
+section h2 {
+    font-size: 28px;
+    font-weight: bold;
+    color: #b8860b;
+}
+
+section p {
+    font-size: 18px;
+    line-height: 1.6;
+}
+
+/* Efek hover */
+section:hover {
+    transform: scale(1.03);
+    background: rgba(255, 255, 255, 1);
+}
+
+/* Footer */
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 15px;
+    font-size: 1em;
+}
